@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DebugStore Fixed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>DebugStore</h1>
+        <p>Fixed Java Spring Boot + Frontend Project</p>
+
+        <button onclick="checkHealth()">Check Backend</button>
+        <p id="healthResult"></p>
+
+        <h2>Add Product</h2>
+        <input id="name" placeholder="Product name">
+        <input id="price" type="number" placeholder="Price">
+        <input id="quantity" type="number" placeholder="Quantity">
+        <button onclick="addProduct()">Add</button>
+
+        <h2>Search</h2>
+        <input id="searchBox" placeholder="Search product">
+        <button onclick="searchProducts()">Search</button>
+        <button onclick="loadProducts()">Reset</button>
+
+        <h2>Products</h2>
+        <div id="products"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

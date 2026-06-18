@@ -1,0 +1,7 @@
+com\promptwars\debugstore\DebugStoreApplication.class
+com\promptwars\debugstore\HealthController.class
+com\promptwars\debugstore\ProductRepository.class
+com\promptwars\debugstore\ProductController.class
+com\promptwars\debugstore\ProductService.class
+com\promptwars\debugstore\GlobalExceptionHandler.class
+com\promptwars\debugstore\Product.class
